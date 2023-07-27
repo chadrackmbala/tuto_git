@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
 
-div {
+* {
     font-size: 6em;
     color: red;
     font-weight: bold;

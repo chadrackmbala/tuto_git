@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
+
 div {
     font-size: 6em;
     color: red;
     font-weight: bold;
     text-align: center;
+    font-family: 'Inter', sans-serif;
 }
 
-/* @import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
-* {
+/** {
     list-style: none;
     text-decoration: none;
     margin: 0;

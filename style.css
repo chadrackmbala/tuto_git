@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter & display=swap');
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-bg-color: rgb(16,32,79); 
+    --card-bg-color: #fff;
+    --form-bg-color: rgb(230,230,250);
+    --button-bg-color: rgb(16,32,79);
+    --card-color: rgb(16,32,77);
+}
+body {
+    background-color: var(--card-color);
+    font-family: 'Inter', sans-serif;
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    background-color: var(--form-bg-color);
+    box-shadow: -1px 1px 7px #000;
+    border-radius: 5px;
+    color: var(--card-color);
+}
+.inscrire {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+.inscrire a {
+    padding: 0.625em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.inscrire a:hover {
+    background-color: var(--card-color);
+    color: #fff;
+}
+.message {
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+}
+.box img {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+.block {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+form input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.icon {
+    width: 30px;
+    height: 30px;
+}
+button {
+    width: 280px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    border-radius: 5px;
+    color: #fff;
+}
+button:hover {
+    background-color: rgb(10,25,60);
+    color: #fff;
+}
+@media screen and (max-width: 850px) {
+    .card {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .card {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 500px) {
+    main {
+        height: 95vh;
+    }
+    .card {
+        width: 340px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .car2 {
+        width: 1000px;
+    }
+    form input {
+        width: 220px;
+        height: 30px;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+    button {
+        width: 250px;
+        height: 30px;
+    }
+}
